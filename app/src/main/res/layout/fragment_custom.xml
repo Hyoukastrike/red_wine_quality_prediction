@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".fragments.CustomFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/fixed_acidity_Et"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:hint="Fixed Acidity"
+                android:inputType="numberDecimal"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColorHint="@color/gray" />
+
+            <EditText
+                android:id="@+id/volatile_acidity_Et"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:hint="Volatile Acidity"
+                android:inputType="numberDecimal"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColorHint="@color/gray" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/citric_acid_Et"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Citric Acid"
+            android:inputType="numberDecimal"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textColorHint="@color/gray" />
+
+        <EditText
+            android:id="@+id/residual_sugar_Et"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Residual Sugar"
+            android:inputType="numberDecimal"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textColorHint="@color/gray" />
+
+        <EditText
+            android:id="@+id/chlorides_Et"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Chlorides"
+            android:inputType="numberDecimal"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textColorHint="@color/gray" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/free_sulfur_dioxide_Et"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:hint="Free Sulfur Dioxide"
+                android:inputType="numberDecimal"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColorHint="@color/gray" />
+
+            <EditText
+                android:id="@+id/total_sulfur_dioxide_Et"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="5dp"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_edittext"
+                android:hint="Total Sulfur Dioxide"
+                android:inputType="numberDecimal"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColorHint="@color/gray" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/density_Et"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:hint="Density"
+                android:inputType="numberDecimal"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColorHint="@color/gray"
+                android:fitsSystemWindows="true"/>
+
+            <EditText
+                android:id="@+id/pH_Et"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:hint="pH"
+                android:inputType="numberDecimal"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColorHint="@color/gray"
+                android:fitsSystemWindows="true"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/sulphates_Et"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Sulphates"
+            android:inputType="numberDecimal"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textColorHint="@color/gray"
+            android:fitsSystemWindows="true"/>
+
+        <EditText
+            android:id="@+id/alcohol_Et"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Alcohol"
+            android:inputType="numberDecimal"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textColorHint="@color/gray"
+            android:fitsSystemWindows="true"/>
+
+        <Button
+            android:id="@+id/predict_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Dự Đoán"
+            android:textSize="20sp"
+            android:background="@drawable/button_custom"/>
+
+        <TextView
+            android:id="@+id/predict_rs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:text=""
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

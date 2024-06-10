@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Red Wine Quality</string>
+    <string name="menu_custom_title">Custom</string>
+    <string name="menu_wine_title">Wine Select</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
